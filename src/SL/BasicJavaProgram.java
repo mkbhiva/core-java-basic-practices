@@ -16,6 +16,8 @@ public class BasicJavaProgram {
 		System.out.println("Enter Second number : ");
 		num2 = sc.nextInt();
 		
+		sc.close();
+		
 		System.out.println("Arthmatic operations on the two numbers are : ");
 		System.out.println("Addition of the numbers is : "+ (num1 + num2) );
 //		System.out.println("Subtraction of the numbers is : " + (num2 - num1));
